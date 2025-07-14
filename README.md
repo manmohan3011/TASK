@@ -83,12 +83,19 @@ headers = {
 
 
 ▶️ How to Run This Project
+
 Install Python (if not already).
+
 Install the requests library by running this command:
+
 pip install requests
+
 Open config.py and add your API token:
+
 "api_token": "your_actual_token_here"
+
 Run the program using:
+
 python main.py
 
 
