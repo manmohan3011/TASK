@@ -79,3 +79,6 @@ python main.py
 
 🗣️ Final Summary (For Interview)
 This task helped me learn how to talk to a REST API using Python, handle dynamic data (like folder IDs), and write clean, easy-to-read code. I made sure the app logs everything clearly and handles errors gracefully. Everything runs in a proper sequence using functions and modular design.
+
+OUTPUT:<img width="1570" height="909" alt="Screenshot 2025-07-14 110523" src="https://github.com/user-attachments/assets/1ef404cb-12a6-44c2-90ce-d234216c7d13" />
+
