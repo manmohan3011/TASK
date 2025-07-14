@@ -1,13 +1,17 @@
 # TASK
+
 📝 Document360 API Task – Beginner Explanation
 🎯 Goal of the Task
+
 The task is about writing a simple Python program (like a mini app) that can talk to a remote server (Document360) and do 4 things with folders:
+
 
 See all folders (GET)
 Create a folder (POST)
 Rename a folder (PUT)
 Delete a folder (DELETE)
 This is called doing CRUD operations using an API.
+
 
 💻 What is an API?
 An API (Application Programming Interface) is like a menu in a restaurant. It tells you what operations you can do. In this case, Document360 gives us some URLs (called endpoints), where we can send requests to do things like:
@@ -36,6 +40,7 @@ I saved the folder ID returned by the API so I can use it later.
 I used the saved folder ID to update its name to "UpdatedTestFolder".
 ❌ Step 5: Delete Folder (DELETE)
 I used the same folder ID to delete the folder from the drive.
+
 🧱 How the Files Are Organized
 document360_api_task/
 │
@@ -44,9 +49,11 @@ document360_api_task/
 ├── main.py          → Runs everything step by step
 ├── README.md        → Easy instructions for setup
 └── .gitignore       → To hide sensitive files
+
 🔐 What is an API Token?
 An API token is like a key to your locker.
 Without it, the system won’t let you do anything.
+
 
 I included it in the request headers like this:
 
@@ -54,10 +61,12 @@ headers = {
     "api_token": "<your_token_here>",
     "Content-Type": "application/json"
 }
+
 🧪 What Extra Things I Did (Bonus)
 📋 Printed every request and response clearly (so we know what’s happening).
 ❗ Used error handling (try/except) so the app doesn’t crash if something goes wrong.
 🔁 Used the folder ID dynamically instead of hardcoding it.
+
 ▶️ How to Run This Project
 Install Python (if not already).
 Install the requests library by running this command:
@@ -66,5 +75,7 @@ Open config.py and add your API token:
 "api_token": "your_actual_token_here"
 Run the program using:
 python main.py
+
+
 🗣️ Final Summary (For Interview)
 This task helped me learn how to talk to a REST API using Python, handle dynamic data (like folder IDs), and write clean, easy-to-read code. I made sure the app logs everything clearly and handles errors gracefully. Everything runs in a proper sequence using functions and modular design.
